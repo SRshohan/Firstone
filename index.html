@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Welcome to my Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,9 +22,7 @@
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    Hi, I'm <span>Sohanur Rahman,</span>
-                    technology enthusiast.
-                </h1>
+                    Hi, I'm <span class="auto-input"></span></h1>
                 <p>
                     I am studying Computer Engineering at Manhattan College.
                     
@@ -567,5 +565,14 @@
     </div>
 
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Sohanur Rahman,", " a technology enthuasist","also a dreamer."],
+            typeSpeed:100,
+            backSpeed:100,
+            loop: true
+        })
+    </script> 
 </body>
 </html>
